@@ -4,7 +4,7 @@ on:
   push: 
     branches: "push on main branch"
   pull_request: 
-    branches: "main"
+    branches: "pull_request on main branch"
 
 jobs:
   build:
